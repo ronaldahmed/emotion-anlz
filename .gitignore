@@ -1,0 +1,8 @@
+*.tsv
+*.labels
+*.data
+*.pyc
+__pycache__/
+data/
+models/
+

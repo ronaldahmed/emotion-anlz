@@ -1,0 +1,366 @@
+Distribution per dataset
+========================================================================
+ 102979 dailydialogues
+  39740 crowdflower
+  21051 tec
+  14771 tales-emotion
+   7666 isear
+   7102 emoint
+   4868 ssec
+   4090 emotiondata-aman
+   4056 electoraltweets
+   2895 fb-valence-arousal-anon
+   2585 grounded_emotions
+   2414 emotion-cause
+   1250 affectivetext
+
+Label distribution: tec
+========================================================================
+   8305 joy
+   3856 sadness
+   3854 surprise
+   2858 fear
+   1576 anger
+    766 disgust
+    244 noemo
+     11 love
+      9 trust
+      9 
+      8 joy,trust
+      5 joy,fear,trust
+      3 joy,anger,sadness,disgust,fear,surprise
+      3 anger,sadness,disgust
+      3 anger,disgust
+      2 shame
+      2 joy,surprise
+      2 joy,sadness,fear,surprise
+      2 joy,anger,sadness,disgust,fear
+      2 anger,sadness,disgust,fear,surprise
+      1 sadness,trust,surprise
+      1 sadness,trust
+      1 sadness,fear,trust
+      1 sadness,disgust,trust
+      1 ribbon
+      1 out of life
+      1 joy,sadness,trust,surprise
+      1 joy,sadness,trust
+      1 joy,anger,trust
+      1 joy,anger,sadness,surprise
+      1 joy,anger,sadness,disgust,surprise
+      1 joy,anger,sadness
+      1 joy,anger,fear
+      1 joy,anger,disgust,fear,surprise
+      1 i have my shop and theroy, along with reading strats, english, psychology, inter Alg, biotec/Mic and spanish I
+      1 anticipation
+      1 anger,trust
+      1 anger,sadness,trust,surprise
+      1 anger,sadness,fear,trust,surprise
+      1 anger,sadness,fear,trust
+      1 anger,sadness,fear,surprise
+      1 anger,sadness,disgust,trust
+      1 anger,sadness,disgust,surprise
+      1 anger,sadness,disgust,fear,trust,surprise
+      1 anger,sadness,disgust,fear,trust
+      1 anger,sadness,disgust,fear
+      1 anger,fear,trust
+
+Label distribution: ssec
+========================================================================
+    527 joy,trust
+    270 anger,sadness,disgust,fear
+    267 anger,sadness,disgust,fear,trust
+    236 joy
+    220 anger,sadness,disgust
+    179 anger,sadness,disgust,trust
+    111 anger,disgust
+    105 trust
+     98 anger,sadness,fear,trust
+     92 
+     91 anger,sadness,disgust,fear,surprise
+     89 anger,sadness,disgust,surprise
+     85 joy,trust,surprise
+     81 sadness,fear,trust
+     81 anger,sadness,fear
+     80 joy,anger,trust
+     72 joy,fear,trust
+     68 joy,surprise
+     68 anger,sadness,trust
+     63 anger,disgust,trust
+     62 joy,sadness,fear,trust
+     57 joy,sadness,trust
+     57 joy,anger,sadness,disgust,fear,trust
+     56 anger,sadness
+     55 anger,sadness,disgust,fear,trust,surprise
+     54 joy,anger,disgust,trust
+     52 anger,trust
+     51 joy,anger,sadness,disgust,trust
+     51 joy,anger,sadness,disgust
+     50 anger,disgust,fear,trust
+     47 joy,anger,disgust
+     42 anger,sadness,disgust,trust,surprise
+     41 sadness,trust
+     41 sadness,fear
+     41 anger,sadness,fear,surprise
+     39 joy,anger,sadness,trust
+     39 joy,anger,sadness,fear,trust
+     38 anger,disgust,fear
+     37 joy,anger,sadness,disgust,surprise
+     37 joy,anger
+     35 surprise
+     34 joy,anger,sadness,disgust,fear
+     34 anger,disgust,surprise
+     30 anger,sadness,surprise
+     30 anger,sadness,fear,trust,surprise
+     29 fear,trust
+     26 anger,fear,trust
+     24 sadness,disgust,fear,trust
+     24 anger
+     23 fear
+     22 joy,anger,fear,trust
+     21 joy,anger,sadness
+     20 sadness
+     19 sadness,fear,surprise
+     19 joy,sadness,trust,surprise
+     19 anger,surprise
+     19 anger,disgust,trust,surprise
+     18 sadness,disgust,fear
+     18 joy,sadness,fear
+     18 joy,sadness
+     17 joy,anger,sadness,trust,surprise
+     17 joy,anger,sadness,disgust,trust,surprise
+     17 joy,anger,disgust,trust,surprise
+     17 anger,trust,surprise
+     16 trust,surprise
+     16 sadness,fear,trust,surprise
+     16 sadness,disgust,trust
+     16 joy,sadness,surprise
+     16 joy,sadness,disgust,trust
+     16 joy,anger,sadness,disgust,fear,trust,surprise
+     16 joy,anger,sadness,disgust,fear,surprise
+     15 joy,anger,trust,surprise
+     15 joy,anger,disgust,surprise
+     15 disgust
+     15 anger,sadness,trust,surprise
+     14 joy,disgust,trust
+     14 joy,anger,sadness,surprise
+     13 joy,anger,surprise
+     13 anger,fear
+     12 joy,fear
+     12 anger,disgust,fear,surprise
+     11 joy,anger,sadness,fear
+     11 joy,anger,fear
+     11 joy,anger,disgust,fear
+     11 fear,trust,surprise
+     10 sadness,surprise
+     10 joy,sadness,fear,trust,surprise
+     10 joy,fear,trust,surprise
+     10 joy,anger,disgust,fear,trust
+      9 sadness,trust,surprise
+      9 sadness,disgust,trust,surprise
+      9 sadness,disgust
+      9 joy,anger,sadness,fear,surprise
+      9 anger,fear,trust,surprise
+      8 sadness,disgust,fear,surprise
+      7 joy,sadness,disgust,fear,trust
+      7 joy,sadness,disgust,fear
+      7 fear,surprise
+      6 joy,sadness,fear,surprise
+      6 disgust,trust
+      6 anger,disgust,fear,trust,surprise
+      5 sadness,disgust,fear,trust,surprise
+      5 joy,sadness,disgust,surprise
+      5 joy,disgust
+      5 disgust,surprise
+      4 sadness,disgust,surprise
+      4 joy,fear,surprise
+      4 joy,disgust,trust,surprise
+      4 joy,disgust,surprise
+      4 joy,anger,sadness,fear,trust,surprise
+      4 joy,anger,disgust,fear,surprise
+      4 disgust,fear,trust
+      3 joy,sadness,disgust
+      3 joy,anger,fear,trust,surprise
+      3 anger,fear,surprise
+      2 joy,sadness,disgust,fear,trust,surprise
+      2 joy,sadness,disgust,fear,surprise
+      2 joy,disgust,fear,trust
+      2 joy,disgust,fear,surprise
+      2 joy,anger,fear,surprise
+      2 disgust,fear,surprise
+      2 disgust,fear
+      1 noemo
+      1 joy,sadness,disgust,trust,surprise
+      1 joy,disgust,fear,trust,surprise
+      1 disgust,trust,surprise
+      1 disgust,fear,trust,surprise
+
+Label distribution: dailydialogues
+========================================================================
+  85572 noemo
+  12885 joy
+   1823 surprise
+   1150 sadness
+   1022 anger
+    353 disgust
+    174 fear
+
+Label distribution: fb-valence-arousal-anon
+========================================================================
+   2876 
+      1  you should walk a mile in their shoes. That way, when you criticize 
+      1 Well, we must get more acquainted
+      1 So, who wants to make-out with me during a random church's
+      1 She said"
+      1 Mmm, chimichanga.
+      1 LOL, gud tymzz nat:):)
+      1 It's Sons Week! If you have a beautiful son or sons that you
+      1 I took the one less traveled by,
+      1 it is a trojan virus worm CALLED Koobface. It will steal your information,
+      1 I'm not afraid to cry, but that's none of your business!
+      1 i have my shop and theroy, along with reading strats, english, psychology, inter Alg, biotec/Mic and spanish I
+      1 he does not lie.
+      1 Get high so my feelings ain't hurt
+      1        -Fuck Off!!!
+      1 Ever this day be at my side, To light and guard, to rule and guide.  
+      1 Do you teach me while I'm here?
+      1 but I'd knew you'd lose, 
+      1 A mix feeling of happy, worried, excited, confused, ambiguous, angry and desperate.
+      1 All we need is positive attitude.
+
+Label distribution: affectivetext
+========================================================================
+    226 joy,surprise
+    188 anger,sadness,disgust,fear,surprise
+    138 joy,anger,sadness,disgust,fear,surprise
+     98 joy,sadness,fear,surprise
+     74 joy,anger,sadness,fear,surprise
+     69 anger,sadness,fear,surprise
+     55 joy,fear,surprise
+     52 anger,sadness,disgust,fear
+     49 sadness,fear,surprise
+     36 joy,sadness,surprise
+     24 joy,disgust,surprise
+     21 joy
+     19 joy,sadness,disgust,fear,surprise
+     18 anger,sadness,fear
+     17 anger,sadness,disgust,surprise
+     13 joy,anger,sadness,disgust,surprise
+      9 joy,anger,sadness,surprise
+      9 joy,anger,sadness,disgust,fear
+      9 anger,sadness,surprise
+      8 sadness,disgust,surprise
+      8 joy,sadness,disgust,surprise
+      7 joy,anger,disgust,fear,surprise
+      6 surprise
+      6 sadness,surprise
+      6 sadness,disgust,fear,surprise
+      6 joy,sadness,fear
+      6 joy,anger,fear,surprise
+      6 anger,disgust,surprise
+      5 sadness,fear
+      5 joy,disgust,fear,surprise
+      5 joy,anger,sadness,disgust
+      5 joy,anger,sadness
+      5 joy,anger,disgust,surprise
+      4 joy,anger,surprise
+      4 
+      3 joy,sadness
+      3 joy,anger,sadness,fear
+      3 fear,surprise
+      3 anger,surprise
+      2 sadness,disgust
+      2 joy,fear
+      2 anger,sadness,disgust
+      2 anger,sadness
+      2 anger,disgust,fear,surprise
+      1 sadness,disgust,fear
+      1 sadness
+      1 Major child porn ring bust
+      1 joy,sadness,disgust,fear
+      1 joy,disgust
+      1 joy,anger,disgust
+      1 joy,anger
+      1 disgust,fear,surprise
+      1 disgust,fear
+      1 anger,fear,surprise
+      1 anger,disgust,fear
+      1 anger,disgust
+
+Label distribution: emotiondata-aman
+========================================================================
+   2800 noemo
+    536 joy
+    179 anger
+    173 sadness
+    172 disgust
+    115 surprise
+    115 fear
+
+Label distribution: electoraltweets
+========================================================================
+   1638 disgust
+    808 trust
+    569 anger
+    349 joy
+    318 anticipation
+    129 surprise,confusion
+    122 surprise
+     91 fear
+     31 sadness
+      1 noemo
+
+Label distribution: grounded_emotions
+========================================================================
+   1530 joy
+   1055 sadness
+
+Label distribution: emotion-cause
+========================================================================
+    575 sadness
+    483 anger
+    479 joy
+    423 fear
+    213 surprise
+    146 
+     95 disgust
+
+Label distribution: isear
+========================================================================
+   1096 shame
+   1096 sadness
+   1096 disgust
+   1096 anger
+   1095 fear
+   1094 joy
+   1093 guilt
+
+Label distribution: emoint
+========================================================================
+   2252 fear
+   1701 anger
+   1616 joy
+   1533 sadness
+
+Label distribution: crowdflower
+========================================================================
+   9370 noemo
+   9220 joy
+   8428 fear
+   5123 sadness
+   3820 love
+   2177 surprise
+   1421 anger
+    179 disgust
+      1 REALLY?? oh.. sorry yall  lol
+      1  logically
+
+Label distribution: tales-emotion
+========================================================================
+   9395 noemo
+   1827 joy
+    921 sadness
+    806 surprise
+    732 anger
+    712 fear
+    378 disgust
+
