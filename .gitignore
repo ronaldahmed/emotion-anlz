@@ -2,7 +2,9 @@
 *.labels
 *.data
 *.pyc
+*.zip
 __pycache__/
+stancedataset/
 data/
 models/
 
