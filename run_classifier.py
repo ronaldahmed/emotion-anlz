@@ -10,6 +10,7 @@ from scipy.stats import randint as sp_randint
 from reader import Reader
 from feature_factory import FeatureFactory
 from sklearn.metrics import classification_report
+from sklearn.neural_network import MLPClassifier
 
 import warnings
 import pdb
@@ -26,6 +27,19 @@ class log_uniform():
   def rvs(self, size=1, random_state=None):
     uniform = sp.stats.uniform(loc=self.loc, scale=self.scale)
     return np.power(self.base, uniform.rvs(size=size, random_state=random_state))
+
+
+class hidden_layer_distr():        
+  def __init__(self, nh=1, _min=10, _max=100):
+    self.nlayers = nh
+    self._min = _min
+    self._max = _max
+
+  def rvs(self, size=1, random_state=None):
+    rint_list = [sp_randint(self._min,self._max) for _ in range(self.nlayers)]
+    return tuple([rint.rvs(size=size,random_state=random_state) for rint in rint_list])
+
+  
 
 
 # Utility function to report best scores
@@ -107,6 +121,28 @@ if __name__ == '__main__':
       "n_neighbors": 5,
       "weights": "uniform",
     }
+
+  elif args.clsf == "mlp":
+    model = MLPClassifier(max_iter=200)
+    params = {
+      "batch_size": sp_randint(20, 200),
+      "learning_rate_init": log_uniform(-5,-1),
+      "alpha": log_uniform(-5,0),
+      "activation": ["tanh","relu"],
+      "hidden_layer_sizes": [(100,),(50,),(150,),(10,),
+                            (100,100),(50,50),(10,10),
+                            (100,50),(50,100),
+                            (50,50,50),(10,10,10),],
+      #"hidden_layer_sizes": hidden_layer_distr(2,10,100),
+    }
+    def_param = {
+      "batch_size": 100,
+      "learning_rate_init": 0.0001,
+      "alpha": 0.001,
+      "activation": "tanh",
+      "hidden_layer_sizes": [10,10],
+    }
+
   #
 
   if args.tune:
