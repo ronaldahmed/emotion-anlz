@@ -123,4 +123,4 @@ if __name__ == '__main__':
   model.fit(X_train,Y_train)
   pred_test = model.predict(X_test)
 
-  print( classification_report(Y_test,pred_test,target_names=reader.get_label_names()) )
+  print( classification_report(Y_test,pred_test,target_names=reader.get_label_names(),digits=4) )
