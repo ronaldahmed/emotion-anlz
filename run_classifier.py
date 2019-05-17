@@ -111,7 +111,9 @@ if __name__ == '__main__':
 
   if args.tune:
     print("Tuning hyperparameters ...")
-    best_params = tune(model,params,X_train,Y_train,njobs=args.njobs)
+    best_params = tune(model,params,X_train,Y_train,
+                       n_iter_search=100,
+                       njobs=args.njobs)
   else:
     best_params = def_param
 
