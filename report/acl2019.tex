@@ -46,7 +46,15 @@
 
 \section{Introduction}
 
-In this report we tackle the task of emotion analysis as a multi-label classification problem.
+The analysis of discrete emotion categories has received increasing attention in last few years \cite{alm2005emotions,aman2007identifying,dodds2011temporal}.
+Even though comprehensive pychological models of emotion categorization have been proposed \cite{ekman1999basic, plutchik2001nature}, the task remains challenging from a machine learning perspective as noted in recent shared tasks \cite{mohammad2016semeval}. More recently, the field has openend to wider application scenarios such as muti-lingual setups \cite{barbieri2018semeval} and irony detection \cite{van2018semeval}.
+
+In this report we tackle the task of discrete emotion recognition over social media text.
+We follow the categorization of emotions proposed by \citet{ekman1999basic} and \citet{plutchik2001nature}, considering the following seven categories:
+anger, disgust, fear, joy, sadness, surprise, and trust.
+
+We take a nominal, multi-label classification approach to the problem, i.e.\ a single instance is labeled with a set of emotion classes.
+We compare the performance of three kinds of classifiers over the SSEC dataset \cite{schuff2017annotation}.
 
 %
 %\section{Problem Formulation}
@@ -86,9 +94,9 @@ Trust    & 2,245                      & 455                       \\ \hline
 \subsection{Feature Extraction and Preprocessing}
 
 For preprocessing, we lowercase and tokenize the text using NLTK library. \footnote{\url{http://www.nltk.org/}}
-All word types with frequency one in the training set are replaced with a special {\it unknown} token.
-
-Features were extracted by filtering out stopwords \footnote{Standard stopword list obtained from NLTK} and then calculating the document-term matrix with TF-IDF weights. Then, we apply Latent Semantic Analysis (LSA) in order to reduce the dimensionality of features to 500.
+The vocabulary considered consists of all word types with frequency greater than one in the training set. All other word types in the training and test set are replaced with a special {\it unknown} token.
+Every document is represented as a bag of words with stopwords~\footnote{Standard stopword list obtained from NLTK} and out-of-vocabulary words removed.
+Features were extracted calculating the document-term matrix with TF-IDF weights. Then, we apply Latent Semantic Analysis (LSA) in order to reduce the dimensionality of features to 500.
 
 \subsection{Models}
 
@@ -123,13 +131,13 @@ Muti-layer Perceptron & Batch size                          & {[}20--200{]}     
 
 \section{Results and Discussion}
 
-Table~\ref{table:results} presents classification results for all models investigated. We observe that the MLP obtains significantly better performance than the other two models for 5 out of 7 emotion classes, according to micro and macro-average F1 score.
-When looking at the F1 scores per clas, for classes in which MLP does better, we observe that the difference between MLP and the runner up model ranges between as litte as 0.41 points (MLP vs RF, {\it anger} class) up to 23.42 points (MLP vs KNN, {\it fear} class).
+Table~\ref{table:results} presents classification results for all models investigated. We observe that the MLP obtains significantly better performance than the other two models for 5 out of 7 emotion classes, according to micro and macro-averaged F1 score.
+When looking at the F1 scores per class, for classes in which MLP does better, we observe that the difference between MLP and the runner up model ranges between as litte as 0.41 points (MLP vs RF, {\it anger} class) up to 23.42 points (MLP vs KNN, {\it fear} class).
 For the {\it sadness} class, RF outperforms MLP by 1.65 points; wheres for the {\it surprise} class, KNN outperforms MLP by 3.39 points.
 
-It is worth noting the low scores obtained for the class {\it surprise} in general, for which the best perfoming model barely obtaines 11.86 F1-score.
+It is worth noting the low scores obtained for the class {\it surprise}, for which the best perfoming model barely obtaines 11.86 F1-score.
 This could be explained by the lesser amount of labeled samples for this class (just 174 in the test set, see Table~\ref{table:corpus-stats}).
-In turn, this situation could explain the low recall scores presented thourghout Table~\ref{table:results}.
+In turn, this situation could explain the low recall scores obtained thourghout Table~\ref{table:results}.
 
 
 \begin{table*}[]
@@ -153,7 +161,7 @@ Macro avg                           & 67.55                 & 45.14             
 \end{table*}
 
 
-\section{Conclusions}
+% \section{Conclusions}
 
 
 

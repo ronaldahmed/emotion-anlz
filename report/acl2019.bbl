@@ -1,10 +1,61 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Alm et~al.(2005)Alm, Roth, and Sproat}]{alm2005emotions}
+Cecilia~Ovesdotter Alm, Dan Roth, and Richard Sproat. 2005.
+\newblock Emotions from text: machine learning for text-based emotion
+  prediction.
+\newblock In \emph{Proceedings of the conference on human language technology
+  and empirical methods in natural language processing}, pages 579--586.
+  Association for Computational Linguistics.
+
+\bibitem[{Aman and Szpakowicz(2007)}]{aman2007identifying}
+Saima Aman and Stan Szpakowicz. 2007.
+\newblock Identifying expressions of emotion in text.
+\newblock In \emph{International Conference on Text, Speech and Dialogue},
+  pages 196--205. Springer.
+
+\bibitem[{Barbieri et~al.(2018)Barbieri, Camacho-Collados, Ronzano, Anke,
+  Ballesteros, Basile, Patti, and Saggion}]{barbieri2018semeval}
+Francesco Barbieri, Jose Camacho-Collados, Francesco Ronzano, Luis~Espinosa
+  Anke, Miguel Ballesteros, Valerio Basile, Viviana Patti, and Horacio Saggion.
+  2018.
+\newblock Semeval 2018 task 2: Multilingual emoji prediction.
+\newblock In \emph{Proceedings of The 12th International Workshop on Semantic
+  Evaluation}, pages 24--33.
+
+\bibitem[{Dodds et~al.(2011)Dodds, Harris, Kloumann, Bliss, and
+  Danforth}]{dodds2011temporal}
+Peter~Sheridan Dodds, Kameron~Decker Harris, Isabel~M Kloumann, Catherine~A
+  Bliss, and Christopher~M Danforth. 2011.
+\newblock Temporal patterns of happiness and information in a global social
+  network: Hedonometrics and twitter.
+\newblock \emph{PloS one}, 6(12):e26752.
+
+\bibitem[{Ekman(1999)}]{ekman1999basic}
+Paul Ekman. 1999.
+\newblock Basic emotions.
+\newblock \emph{Handbook of cognition and emotion}, pages 45--60.
 
 \bibitem[{Kingma and Ba(2014)}]{kingma2014adam}
 Diederik~P Kingma and Jimmy Ba. 2014.
 \newblock Adam: A method for stochastic optimization.
 \newblock \emph{arXiv preprint arXiv:1412.6980}.
+
+\bibitem[{Mohammad et~al.(2016)Mohammad, Kiritchenko, Sobhani, Zhu, and
+  Cherry}]{mohammad2016semeval}
+Saif Mohammad, Svetlana Kiritchenko, Parinaz Sobhani, Xiaodan Zhu, and Colin
+  Cherry. 2016.
+\newblock Semeval-2016 task 6: Detecting stance in tweets.
+\newblock In \emph{Proceedings of the 10th International Workshop on Semantic
+  Evaluation (SemEval-2016)}, pages 31--41.
+
+\bibitem[{Plutchik(2001)}]{plutchik2001nature}
+Robert Plutchik. 2001.
+\newblock The nature of emotions: Human emotions have deep evolutionary roots,
+  a fact that may explain their complexity and provide tools for clinical
+  practice.
+\newblock \emph{American scientist}, 89(4):344--350.
 
 \bibitem[{Schuff et~al.(2017)Schuff, Barnes, Mohme, Pad{\'o}, and
   Klinger}]{schuff2017annotation}
@@ -14,5 +65,11 @@ Hendrik Schuff, Jeremy Barnes, Julian Mohme, Sebastian Pad{\'o}, and Roman
   stance and sentiment detection corpus.
 \newblock In \emph{Proceedings of the 8th Workshop on Computational Approaches
   to Subjectivity, Sentiment and Social Media Analysis}, pages 13--23.
+
+\bibitem[{Van~Hee et~al.(2018)Van~Hee, Lefever, and Hoste}]{van2018semeval}
+Cynthia Van~Hee, Els Lefever, and V{\'e}ronique Hoste. 2018.
+\newblock Semeval-2018 task 3: Irony detection in english tweets.
+\newblock In \emph{Proceedings of The 12th International Workshop on Semantic
+  Evaluation}, pages 39--50.
 
 \end{thebibliography}

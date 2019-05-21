@@ -136,11 +136,11 @@ if __name__ == '__main__':
       #"hidden_layer_sizes": hidden_layer_distr(2,10,100),
     }
     def_param = {
-      "batch_size": 100,
-      "learning_rate_init": 0.0001,
-      "alpha": 0.001,
-      "activation": "tanh",
-      "hidden_layer_sizes": [10,10],
+      "batch_size": 158,
+      "learning_rate_init": 7.56e-5,
+      "alpha": 5.99e-5,
+      "activation": "relu",
+      "hidden_layer_sizes": (100,50),
     }
 
   #

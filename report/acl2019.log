@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.1.19)  18 MAY 2019 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.3)  21 MAY 2019 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -285,72 +285,95 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 69.
+               Default added (so using `tbp') on input line 77.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 71.
+(Font)              <10.95> on input line 79.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 88.
+(Font)              <9> on input line 96.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 88.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 88.
+(Font)              <5> on input line 96.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 96.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 103.
-
-
-Overfull \hbox (23.51353pt too wide) in paragraph at lines 105--119
- [][] 
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 135.
+               Default added (so using `tbp') on input line 111.
 
-(./acl2019.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
- [2
 
-] [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
+Overfull \hbox (23.51353pt too wide) in paragraph at lines 113--127
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 143.
+
+(./acl2019.bbl
+Underfull \hbox (badness 2126) in paragraph at lines 5--11
+[]\OT1/ptm/m/n/10 Cecilia Oves-dot-ter Alm, Dan Roth, and Richard
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--26
+[]\OT1/ptm/m/n/10 Francesco Bar-bi-eri, Jose Camacho-Collados,
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 20--26
+\OT1/ptm/m/n/10 Balles-teros, Va-le-rio Basile, Vi-viana Patti, and
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 20--26
+\OT1/ptm/m/n/10 Mul-ti-lin-gual emoji pre-dic-tion.  In \OT1/ptm/m/it/10 Pro-ce
+ed-ings
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 47--52
+\OT1/ptm/m/n/10 hani, Xi-ao-dan Zhu, and Colin Cherry. 2016.
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+ [2] [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
  (./acl2019.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
 Package rerunfilecheck Info: File `acl2019.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
  )
 (\end occurred when \iffalse on line 351 was incomplete) 
 Here is how much of TeX's memory you used:
- 7058 strings out of 492982
- 104740 string characters out of 6134896
- 207520 words of memory out of 5000000
- 10554 multiletter control sequences out of 15000+600000
+ 7090 strings out of 492982
+ 105511 string characters out of 6134897
+ 213775 words of memory out of 5000000
+ 10579 multiletter control sequences out of 15000+600000
  28188 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,14n,40p,1010b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,14n,40p,1010b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/tex
 mf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/
 urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
 uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on acl2019.pdf (3 pages, 74818 bytes).
+Output written on acl2019.pdf (3 pages, 80071 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 28 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
