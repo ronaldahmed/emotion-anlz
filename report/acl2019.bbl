@@ -1,0 +1,18 @@
+\begin{thebibliography}{2}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Kingma and Ba(2014)}]{kingma2014adam}
+Diederik~P Kingma and Jimmy Ba. 2014.
+\newblock Adam: A method for stochastic optimization.
+\newblock \emph{arXiv preprint arXiv:1412.6980}.
+
+\bibitem[{Schuff et~al.(2017)Schuff, Barnes, Mohme, Pad{\'o}, and
+  Klinger}]{schuff2017annotation}
+Hendrik Schuff, Jeremy Barnes, Julian Mohme, Sebastian Pad{\'o}, and Roman
+  Klinger. 2017.
+\newblock Annotation, modelling and analysis of fine-grained emotions on a
+  stance and sentiment detection corpus.
+\newblock In \emph{Proceedings of the 8th Workshop on Computational Approaches
+  to Subjectivity, Sentiment and Social Media Analysis}, pages 13--23.
+
+\end{thebibliography}

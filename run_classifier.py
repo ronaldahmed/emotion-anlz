@@ -89,7 +89,7 @@ if __name__ == '__main__':
   print("Train shape:",X_train.shape)
   print("Test shape:",X_test.shape)  
 
-  # pdb.set_trace()
+  pdb.set_trace()
 
   # if   args.clsf == "logreg":
   #   model = LogisticRegression()
@@ -161,4 +161,5 @@ if __name__ == '__main__':
   model.fit(X_train,Y_train)
   pred_test = model.predict(X_test)
 
-  print( classification_report(Y_test,pred_test,target_names=reader.get_label_names(),digits=4) )
+  # print( classification_report(Y_test,pred_test,target_names=reader.get_label_names(),digits=4) )
+  print( classification_report(Y_train,model.predict(X_train),target_names=reader.get_label_names(),digits=4) )
